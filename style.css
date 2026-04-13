@@ -1,0 +1,84 @@
+html{
+
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu-container ul li{
+    margin-bottom: 10px;
+}
+
+.menu-container ul p{
+    margin-bottom: 10px;
+    font-size : 15px;
+}
+
+.menu-container ul{
+    list-style-type: none;
+    font-size: 30px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.menu-container ul li{
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.menu-container ul li::before{
+    content: "•";
+    color: green;
+    font-size: 30px;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* Border Classes for Reviews Section */
+.bl-md-left {
+    border-left: none;
+}
+
+.bl-md-right {
+    border-right: none;
+}
+
+@media (min-width: 768px) {
+
+    .border-adapt {
+        border-right: 2px solid navy;
+        border-left: 2px solid navy;
+    }
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .menu-container ul {
+        font-size: 20px;
+    }
+    
+    .menu-container ul li::before {
+        font-size: 20px;
+    }
+    
+    .menu-container ul p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 576px) {
+    .menu-container ul {
+        font-size: 16px;
+    }
+    
+    .menu-container ul li::before {
+        font-size: 16px;
+    }
+    
+    .menu-container ul p {
+        font-size: 11px;
+    }
+}
+
