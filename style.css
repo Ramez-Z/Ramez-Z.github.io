@@ -28,8 +28,6 @@ body{
 }
 
 .menu-container ul li::before{
-    content: "•";
-    color: green;
     font-size: 30px;
     display: inline-block;
     width: 1em;
@@ -82,3 +80,6 @@ body{
     }
 }
 
+ul{
+    list-style: none;
+}
