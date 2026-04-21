@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body style="display: flex; flex-direction: column; min-height: 100vh;">
 
-    <header id="main-header"></header>
+    <header></header>
 
-    <main>
+    <main style="flex: 1;">
         <section class="hero-section text-center p-5">
             <div class="container border-white-rounded">
                 <h1 class="display-3 fw-bold">Tingeling</h1>
@@ -27,13 +27,13 @@
         <section class="info-cards py-5 bg-white">
             <div class="container"> 
                 <div class="row g-4" style="border: 2px solid green; border-radius: 15px; padding: 20px;">
-                    <div class="col-md-6" style="border-right: 2px solid green;">
+                    <div class="col-md-6 col-sm-12 border-adapt">
                         <div class="card h-100 border-0 custom-card p-4">
                             <h2 class="text-center mb-4"><i class="fa-solid fa-utensils me-2"></i>Om Mig</h2>
                             <p>Jag är en passionerad kock med fokus på smak, kvalitet och noggrant hantverk. Med erfarenhet från både à la carte och större kök arbetar jag effektivt under press och levererar rätter med hög standard.</p>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 col-sm-12 border-adapt">
                         <div class="card h-100 border-0 custom-card p-4">
                             <h2 class="text-center mb-4"><i class="fa-solid fa-shop me-2"></i>Restaurangen</h2>
                             <p>Restaurangen Tingeling är en plats där mat och atmosfär går hand i hand. Vi erbjuder en unik upplevelse med fokus på lokal produktion och <strong>färsk</strong> mat i en välkomnande miljö.</p>
@@ -64,7 +64,7 @@
                             <p>På Restaurang Tingeling skapas magi i köket. Med en nypa fantasi och fokus på smak förvandlas varje råvara till en upplevelse som verkligen säger “tingeling” för smaklökarna.</p>
                         </div>
                     </div>
-                    <div class="col-md-4 border-adapt col-sm-12">
+                    <div class="col-md-4 border-adapt col-sm-12" style="border-color: navy;">
                         <div class="card h-100 border-0 custom-card p-4">
                             <div class="d-flex align-items-center mb-3">
                                 <img src="img/erik.jpeg" alt="Erik" class="rounded-circle me-3" style="width: 80px; height: 80px; object-fit: cover;">

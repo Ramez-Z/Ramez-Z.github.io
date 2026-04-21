@@ -24,7 +24,7 @@ let header = document.getElementsByTagName("header")[0].innerHTML = `
         </div>
       </nav>`
 
-let footer = document.getElementsByTagName("footer")[0].innerHTML = `<div class="col-12 text-center p-4" style="border: 2px solid green; border-radius: 15px; margin: 10px;">
+let footer = document.getElementsByTagName("footer")[0].innerHTML = `<div class="container" style="width: 100%;"><div class="row justify-content-center"><div class="col-12 text-center p-4" style="border: 2px solid green; border-radius: 15px; margin: 10px;">
             <p class="text-center mb-0">© 2024 Restaurang Tingeling. Alla rättigheter förbehållna.</p>
             <p class="text-center mb-0">Kontakta oss: info@tingeling.se | Telefon: 0771-123456</p>
-        </div>`
+        </div></div></div>`

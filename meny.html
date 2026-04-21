@@ -1,37 +1,38 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Vår Meny</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body style="display: flex; flex-direction: column; min-height: 100vh;">
     <header>
 
     </header>
     
-    <main>
+    <main style="flex: 1;">
         <section class="menu-section">
             <div class="container m-5 p-3 col-lg-8 col-sm-12 mx-auto" style="border: 10px solid green; min-height: fit-content; max-height: 75%; border-radius: 15px;">
                 <h1 class="text-center mb-3"><i class="fa-solid fa-utensils me-2"></i>Vår Meny</h1>
-                <div style="min-height: 100%; border: 5px solid green; border-radius: 15px;" class="d-flex p-3 menu-container ">
+                <div style="min-height: 100%; border: 5px solid green; border-radius: 15px;" class="d-flex flex-column flex-lg-row p-3 menu-container ">
                     <div style="flex:1; border-right: 2px solid green;" class="p-2">
                         <h2 class="text-center mb-3" style="text-decoration: underline green;"><i class="fa-solid fa-burger me-2"></i>Varm rätter</h2>
                         <div class="d-flex flex-column align-items-baseline menu-warm">
                             <ul>
-                                <img src="img/spagett.jpeg" alt="Spaghetti Bolognese" class="mb-3" style="width: 30%; height: auto; border-radius: 15px;   ">
-                                <li>Spaghetti Bolognese</li>
+                                <li><img src="img/spagett.jpeg" alt="Spaghetti Bolognese" class="mb-3" style="width: 30%; height: auto; border-radius: 15px;"><br>
+                                Spaghetti Bolognese</li>
                                 <p>Klassisk italiensk pasta med läcker köttfärssås och tomater</p>
-                                <img src="img/parm.jpeg" alt="Chicken Parmesan" class="mb-3" style="width: 30%; height: auto; border-radius: 15px;   ">
-                                <li>Chicken Parmesan</li>
+                                <li><img src="img/parm.jpeg" alt="Chicken Parmesan" class="mb-3" style="width: 30%; height: auto; border-radius: 15px;"><br>
+                                Chicken Parmesan</li>
                                 <p>Panerad kyckling med smält mozzarella och parmesanost</p>
-                                <img src="img/lasagne.jpeg" alt="Lasagna" class="mb-3" style="width: 30%; height: auto; border-radius: 15px;   ">
-                                <li>Lasagna</li>
+                                <li><img src="img/lasagne.jpeg" alt="Lasagna" class="mb-3" style="width: 30%; height: auto; border-radius: 15px;"><br>
+                                Lasagna</li>
                                 <p>Långsamt tillagad lasagne med flera lager av köttfärssås och bechamelsås</p>
-                                <img src="img/lax.jpeg" alt="Grillad Lax" class="mb-3" style="width: 30%; height: auto; border-radius: 15px;   ">
-                                <li>Grillad Lax</li>
+                                <li><img src="img/lax.jpeg" alt="Grillad Lax" class="mb-3" style="width: 30%; height: auto; border-radius: 15px;"><br>
+                                Grillad Lax</li>
                                 <p>Mörtad atlantisk lax serverad med citron och hemlagat bearnaisesås</p>
                             </ul>
                         </div>
@@ -40,17 +41,17 @@
                         <h2 class="text-center mb-3" style="text-decoration: underline green;"><i class="fa-solid fa-snowflake me-2"></i>Kall rätter</h2>
                         <div class="d-flex flex-column align-items-baseline menu-warm">
                             <ul>
-                                <img src="img/ceasar.jpeg" alt="ceasar salad" class="mb-3" style="width: 30%; height: auto; border-radius: 15px;   ">
-                                <li>Ceasar Salad</li>
+                                <li><img src="img/ceasar.jpeg" alt="ceasar salad" class="mb-3" style="width: 30%; height: auto; border-radius: 15px;"><br>
+                                Ceasar Salad</li>
                                 <p>Färska romansallad med pecorino, krutons och klassisk ceasardressing</p>
-                                <img src="img/sushi.jpeg" alt="Sushi" class="mb-3" style="width: 30%; height: auto; border-radius: 15px;   ">
-                                <li>Sushi</li>
+                                <li><img src="img/sushi.jpeg" alt="Sushi" class="mb-3" style="width: 30%; height: auto; border-radius: 15px;   "><br>
+                                Sushi</li>
                                 <p>Färskt gjord sushi med lax, räkor och vegetabiliska ingredienser</p>
-                                <img src="img/gaz.jpeg" alt="Gazpacho" class="mb-3" style="width: 30%; height: auto; border-radius: 15px;   ">
-                                <li>Gazpacho</li>
+                                <li><img src="img/gaz.jpeg" alt="Gazpacho" class="mb-3" style="width: 30%; height: auto; border-radius: 15px;"><br>
+                                Gazpacho</li>
                                 <p>Spansk kall tomatsoppa perfekt för varma dagar</p>
-                                <img src="img/rost.jpeg" alt="Rostbiff med potatissalad" class="mb-3" style="width: 30%; height: auto; border-radius: 15px;   ">
-                                <li>Rostbiff med potatissalad</li>
+                                <li><img src="img/rost.jpeg" alt="Rostbiff med potatissalad" class="mb-3" style="width: 30%; height: auto; border-radius: 15px;"><br>
+                                Rostbiff med potatissalad</li>
                                 <p>Tunt skivad rostbiff serverad med krämig potatissalad och rödlökssilllök</p>
                             </ul>
                         </div>
